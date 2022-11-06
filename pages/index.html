@@ -7,7 +7,9 @@
     <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="shortcut icon" href="../sources/img/bycicle.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <!-- =================ENCABEZADO================= -->
@@ -30,13 +32,13 @@
                     <a class="nav-link active text-light fs-6 fw-bold aria-current="page" href="./motocicletas.html">Motocicletas</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-light fs-6 fw-bold aria-current="page" href="#">Financiacion</a>
+                    <a class="nav-link active text-light fs-6 fw-bold aria-current="page" href="./financiacion.html">Financiacion</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-light fs-6 fw-bold aria-current="page" href="#">Accesorios</a>
+                    <a class="nav-link active text-light fs-6 fw-bold aria-current="page" href="./accesorios.html">Accesorios</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-light fs-6 fw-bold aria-current="page" href="#">Servicio</a>
+                    <a class="nav-link active text-light fs-6 fw-bold aria-current="page" href="./servicio.html">Servicio</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -77,41 +79,110 @@
     <main>
         <!-- =================TEXTO DESCRIPTIVO================= --> 
         <section class="w-50 mx-auto text-center pt-5">
-            <h1 class="p-3 fs-2 border-top border-3">Mereces lo mejor, mereces nuevas aventuras y retos, <span class="text-danger"> mereces ser parte de esta familia.</span></h1>
-            <p class="p-3 fs-4"><span class="text-danger fw-bold">Motorsite </span>es el universo para los que somos amantes de los dos ruedas y vivimos la pasion de los caballos de fuerza.</p>
+            <h1 class="titulo-mitad p-3 fs-2 border-top border-3">Mereces lo mejor, mereces nuevas aventuras y retos, <span class="text-danger"> mereces ser parte de esta familia.</span></h1>
+            <p class="texto-mitad p-3 fs-4"><span class="text-danger fw-bold">Motorsite </span>es el universo para los que somos amantes de los dos ruedas, vivímos la pasion de los caballos de fuerza.</p>
         </section>
-        <!-- =================TEXTO DESCRIPTIVO================= --> 
+        <!-- =================SECCIONES================= --> 
         <section class="container-fluid">
             <div class="row w-75 mx-auto my-5">
                 <div class="col-lg-6 col-md-12 col-sm-12 text-center">
-                    <img src="../sources/img/Modelos2023.jpg" alt="" width="280" height="160">
+                    <img src="../sources/img/Modelos2023.jpg" class="rounded-4" alt="" width="280" height="160">
                     <div>
                         <h3 class="fs-8 mt-4 px-4 pb-1">Modelos 2023</h3>
-                        <p class="px-4">Mira lo último en modelos que hemos traído para tí</p>
+                        <p class="px-4">Mira lo último en modelos y tecnología que hemos traído para tí.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 text-center">
-                    <img src="../sources/img/asesoramiento.jpg" alt="" width="280" height="160">
+                    <img src="../sources/img/asesoramiento.jpg" class="rounded-4" alt="" width="280" height="160">
                     <div>
                         <h3 class="fs-8 mt-4 px-4 pb-1">Asesoramiento</h3>
-                        <p class="px-4">Mira lo último en modelos que hemos traído para tí</p>
+                        <p class="px-4">Recibe un asesoramiento completo y enseñanza para que tomes la mejor decisión.</p>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                    <img src="../sources/img/mantenimiento.jpg" alt="" width="280" height="160">
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                    <img src="../sources/img/mantenimiento.jpg" class="rounded-4" alt="" width="280" height="160">
                     <div>
                         <h3 class="fs-8 mt-4 px-4 pb-1">Mantenimiento</h3>
-                        <p class="px-4">Mira lo último en modelos que hemos traído para tí</p>
+                        <p class="px-4">Sabemos lo importante que es tu moto, por eso tenemos los mejores expertos disponibles.</p>
                     </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                  <img src="../sources/img/clientes_felices.jpg" class="rounded-4" alt="" width="280" height="160">
+                  <div>
+                      <h3 class="fs-8 mt-4 px-4 pb-1">Clientes Satisfechos</h3>
+                      <p class="px-4">Opiniones testimonios y experiencias de nuestros clientes con nuestra marca.</p>
+                  </div>
                 </div>
             </div>
         </section>
     </main>
 
+
+    
+      <!-- =================BOTON FLOTANTE================= -->
+
+        <div class="container-fluid">
+          <a href="https://wa.me/13144369005" class="btn-wsp" target="_blank">
+            <i class="fa fa-whatsapp icono"></i>
+          </a>
+        </div>
+        
+      <!-- =================FOOTER================= --> 
     <footer class="container-fluid bg-dark">
         <section class="row">
-            <div class="col-lg-12 col-md-12 col-sm-1 text-center">
-                <img src="../sources/img/bannerFooter.png" alt="" >
+          <div class="container-fluid bg-danger w-50 h-50 rounded-4 my-4 fs-1 text-center col-lg-12 ">
+            <section class="texto-faster">
+              <p class="text-light pt-2">FAMILIA MOTORSITE</p>
+            </section>
+          </div>
+        </section>
+      <!-- =================FOOTER DECRIPTIVO================= --> 
+        <section>
+          <div class="row">
+            <div class="col text-light text-justify mt-3">
+              <h1 class="fs-3 ms-4">Sedes</h1>
+              <ul class="list-footer">
+                <li><a href="">Bogotá</a></li>
+                <li><a href="">Medellín</a></li>
+                <li><a href="">Barranquilla</a></li>
+                <li><a href="">Cali</a></li>
+              </ul>
+            </div>
+            <div class="col text-light text-justify mt-3">
+              <h1 class="fs-3 ms-4">Casas Aliadas</h1>
+              <ul class="list-footer">
+                <li><a href="">Suzuki</a></li>
+                <li><a href="">Yamaha Colombia</a></li>
+                <li><a href="">Kawastore</a></li>
+                <li><a href="">Ducati importaciones</a></li>
+                <li><a href="">Honda motores</a></li>
+                <li><a href="">Auteco Colombia</a></li>
+                <li><a href="">UMA Colombia</a></li>
+              </ul>
+            </div>
+            <div class="col text-light text-justify mt-3">
+              <h1 class="fs-3 ms-4">Extras</h1>
+              <ul class="list-footer">
+                <li><a href="">Cambio de Aceite</a></li>
+                <li><a href="">LLantas de pista</a></li>
+                <li><a href="">Frenos Brembo</a></li>
+                <li><a href="">Juegos de calcomanias</a></li>
+                <li><a href="">Repotenciación</a></li>
+                <li><a href="">Servicio de Grúa</a></li>
+              </ul>
+            </div>
+            <div class="col text-light text-justify mt-3">
+              <h1 class="fs-3 ms-4">Contáctanos</h1>
+              <ul class="list-footer">
+                <li><a href="">Telefonos</a></li>
+                <li><a href="">Email</a></li>
+                <li><a href="">Correspondencia</a></li>
+                <li><a href="">Whatsapp</a></li>
+              </ul>
+            </div>
+          </div>
+            <div class="col">
+                <img src="../sources/img/bannerFooter.png" class="img-fluid" alt="" >
             </div>
         </section>
     </footer>
