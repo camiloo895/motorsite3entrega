@@ -7,9 +7,9 @@ font-family: 'Open Sans', sans-serif;
 **/
 @import"../base/reset";
 
-@import"../components/_bootstrap";
-
 @import"../scss/layout/header-index";
+
+@import"../components/_bootstrap";
 
 @import"../scss/layout/media-queries";
 
