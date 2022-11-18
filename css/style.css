@@ -15,6 +15,16 @@ font-family: 'Open Sans', sans-serif;
   background-size: cover;
   background-position: center; }
 
+.ban-3 {
+  background-image: url(../sources/img/banner_3.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.ban-4 {
+  background-image: url(../sources/img/banner_4.jpg);
+  background-size: cover;
+  background-position: center; }
+
 .texto-faster {
   font-family: 'Faster One', cursive !important; }
 
@@ -25,6 +35,9 @@ font-family: 'Open Sans', sans-serif;
   font-family: 'Days One', sans-serif !important; }
 
 .ban-2 {
+  font-family: 'Days One', sans-serif !important; }
+
+.ban-3 {
   font-family: 'Days One', sans-serif !important; }
 
 .letra-G {
